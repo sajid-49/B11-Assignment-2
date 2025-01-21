@@ -1,0 +1,106 @@
+/* Link to Google Fonts */
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap");
+
+.quicksand-fonts {
+  font-family: "Quicksand", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+/* Share styles */
+
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.flex {
+  display: flex;
+}
+
+.grid {
+  display: grid;
+}
+
+.none {
+  display: none;
+}
+/* Color Style */
+.skyblue {
+  color: #01acfd;
+}
+
+/* header section Starts */
+
+/* Navbar section */
+.navbar {
+  justify-content: space-between;
+  width: 1160px;
+  margin: 20px auto;
+}
+
+.left-nav {
+  gap: 11px;
+}
+
+.left-nav :nth-child(2) {
+  font-size: 2rem;
+  font-weight: 700;
+}
+.center-nav ul {
+  gap: 32px;
+}
+.center-nav ul li {
+  list-style: none;
+}
+.center-nav ul li a {
+  text-decoration: none;
+  font-size: 1.25rem;
+  font-weight: 500;
+}
+
+.right-nav-btn {
+  background-color: orange;
+  border: none;
+  border-radius: 12px;
+  padding: 10px;
+  color: #ffffff;
+  width: 197px;
+  font-size: 1.25rem;
+  font-weight: 500;
+  height: 50px;
+}
+
+/* header section Ends */
+
+/* Main section Starts  */
+/* Main section Ends */
+
+/* Footer Section Starts */
+/* Footer Section Ends */
+
+/* Responsive layout Section */
+/* Small size device */
+@media screen and (max-width: 576px) {
+  /* Shared Style */
+  .sm-none {
+    display: none;
+  }
+  /* Header section */
+
+  /* Nav section */
+  .right-nav-icon {
+    display: block;
+  }
+
+  .navbar {
+    width: 390px;
+    height: 70px;
+    padding: 16px 12px;
+    margin: 0 auto;
+    border: 1px solid orange;
+    align-items: center;
+  }
+}
