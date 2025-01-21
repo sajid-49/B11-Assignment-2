@@ -120,6 +120,50 @@
 /* header section Ends */
 
 /* Main section Starts  */
+
+/* Standard section */
+.standard-section {
+  width: 1440px;
+  height: 880px;
+  padding: 60px 0;
+  background-image: url(../assets/bg.png);
+}
+
+.standard-title {
+  font-size: 3rem;
+  font-weight: 700;
+  color: #000000;
+}
+.standard-cards {
+  width: 1160px;
+  height: 482px;
+}
+
+.standard-card {
+  width: 367px;
+  height: 476px;
+  background-color: #def5ff;
+
+  flex-direction: column;
+  border-radius: 19px;
+  padding: 52px 40px;
+  gap: 32px;
+}
+.card-title {
+  font-size: 1.53rem;
+  font-weight: 700;
+  color: #202020;
+}
+.card-description {
+  font-size: 0.9rem;
+  color: #808080;
+}
+.card-sub-title {
+  font-size: 0.9rem;
+  font-weight: 700;
+  color: #64c8ff;
+}
+
 /* Main section Ends */
 
 /* Footer Section Starts */
