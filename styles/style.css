@@ -126,11 +126,9 @@ html {
 
 /* Main section Starts  */
 .main {
-  background-image: linear-gradient(to bottom, #fff, rgba(255, 177, 42, 0.575)),
-    url("../assets/bg.png");
+  background-image: url("../assets/bg.png");
   background-position: center;
-
-  /* background-image: linear-gradient(to bottom, rgba(255, 177, 42, 0.575)); */
+  background-image: linear-gradient(#ffffff 70%, #fab742e1);
 }
 /* Standard section */
 .standard-section {
@@ -159,13 +157,16 @@ html {
   text-align: center;
 }
 .card1 {
-  background-color: #def5ff;
+  background-image: linear-gradient(#def5ff 10%, #ffffff);
+  box-shadow: 0 0 28px 0.94px rgba(0, 0, 0, 0.05);
 }
 .card2 {
-  background-color: #fff4dc;
+  background-image: linear-gradient(#fff4dc 10%, #ffffff);
+  box-shadow: 0 0 28px 0.94px rgba(0, 0, 0, 0.05);
 }
 .card3 {
-  background-color: #f2e8ff;
+  background-image: linear-gradient(#f2e8ff 10%, #ffffff);
+  box-shadow: 0 0 28px 0.94px rgba(0, 0, 0, 0.05);
 }
 .card-title {
   font-size: 1.53rem;
