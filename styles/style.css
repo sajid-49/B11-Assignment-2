@@ -6,7 +6,7 @@
 /* Link to Google Fonts */
 @import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap");
 
-.quicksand-fonts {
+html {
   font-family: "Quicksand", serif;
   font-optical-sizing: auto;
   font-weight: 400;
@@ -125,12 +125,16 @@
 /* header section Ends */
 
 /* Main section Starts  */
+.main {
+  background-image: linear-gradient(to bottom, #fff, rgba(255, 177, 42, 0.575)),
+    url("../assets/bg.png");
+  background-position: center;
 
+  /* background-image: linear-gradient(to bottom, rgba(255, 177, 42, 0.575)); */
+}
 /* Standard section */
 .standard-section {
-  width: 1440px;
   padding: 60px 0;
-  background-image: url(../assets/bg.png);
   flex-direction: column;
   gap: 80px;
   margin: 0 auto;
@@ -143,14 +147,11 @@
 }
 .standard-cards {
   width: 1160px;
-  height: 482px;
   gap: 28px;
 }
 
 .standard-card {
   width: 367px;
-  height: 476px;
-
   flex-direction: column;
   border-radius: 19px;
   padding: 52px 40px;
@@ -178,7 +179,6 @@
 .card-sub-title {
   font-size: 0.9rem;
   font-weight: 700;
-  /* color: #64c8ff; */
 }
 
 .standard-icon {
@@ -197,8 +197,122 @@
   color: white;
 }
 
+/* Story section */
+.story-section {
+  padding-top: 60px;
+  background-image: url(../assets/bg.png);
+  flex-direction: column;
+  width: 1160px;
+  margin: 0 auto;
+  gap: 80px;
+}
+
+.story-title {
+  font-size: 2.87rem;
+  font-weight: 700;
+  color: #000000;
+}
+
+.story-btn {
+  padding: 10;
+  border: none;
+  border-radius: 12px;
+  color: #ffffff;
+  background-color: black;
+  width: 197px;
+  height: 50px;
+  font-size: 1.25rem;
+  font-weight: 700;
+}
+
+.story-cardss {
+  gap: 18px;
+}
+
+/* Cards 1 */
+.story-cards1 {
+  width: 540px;
+  background-color: #ffffff;
+  border-radius: 16px;
+  flex-direction: column;
+}
+.card-img img {
+  width: 100%;
+  border-top-left-radius: 16px;
+  border-top-right-radius: 16px;
+}
+
+.story-card-text {
+  padding: 0 38px 34px;
+}
+.story-card-btn {
+  color: #ffffff;
+  font-size: 0.9rem;
+  border: none;
+  border-radius: 48px;
+  background-color: #3cd8e8;
+  width: 174px;
+  height: 47px;
+  position: relative;
+  top: -28px;
+}
+.story-card-title {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #000000;
+  margin-bottom: 47px;
+}
+.story-card-description {
+  font-size: 0.9rem;
+  color: #666666;
+}
+
+/* cards 2 */
+.story-cards2 {
+  grid-template-columns: repeat(2, 1fr);
+  gap: 18px;
+}
+.cards2 {
+  background-color: #ffffff;
+  border-radius: 16px;
+}
+.cards2-img img {
+  width: 100%;
+  border-top-left-radius: 16px;
+  border-top-right-radius: 16px;
+}
+.cards2-btn {
+  background-color: #95b226;
+  width: 174px;
+  height: 38px;
+  font-size: 0.9rem;
+  color: #ffffff;
+  border: none;
+  border-radius: 48px;
+  position: relative;
+  top: -24px;
+  left: 29px;
+}
+.cards2-title {
+  font-size: 0.9rem;
+  font-weight: 700;
+  margin: 0 37px 28px;
+  color: #000000;
+}
+
 /* Main section Ends */
 
+/* footer section  */
+.footer {
+  width: 100%;
+  height: 520px;
+  background-color: #01acfd;
+}
+.footer-container {
+  width: 1070px;
+  height: 222px;
+  border: 2px solid red;
+}
 /* Footer Section Starts */
 /* Footer Section Ends */
 
@@ -267,7 +381,9 @@
   /* Main section  */
   .standard-section {
     width: 390px;
+    gap: 20px;
     padding: 40px 16px 20px;
+    margin: 0;
   }
   .standard-title {
     font-size: 1.625rem;
@@ -288,5 +404,36 @@
   .card-description {
     width: 193px;
     font-size: 0.64rem;
+  }
+  .story-section {
+    width: 100%;
+  }
+
+  .cards2-btn {
+    width: 103px;
+    height: 22px;
+    font-size: 0.57rem;
+    border-radius: 28px;
+    position: relative;
+    top: -17px;
+    left: 34px;
+  }
+  .story-cards2 {
+    margin: 20px 15px;
+  }
+  .story-section {
+    gap: 0;
+    padding-top: 40px;
+  }
+
+  .story-btn {
+    margin-bottom: 40px;
+    width: 134px;
+    height: 30px;
+    font-size: 1rem;
+    font-weight: 700;
+  }
+  .story-title {
+    font-size: 1.5rem;
   }
 }
