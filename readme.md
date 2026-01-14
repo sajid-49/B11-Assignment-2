@@ -8,7 +8,7 @@
 
 **📅 Deadline For 30 marks**: Any time after 23th January.
 
-## Requirements (50)
+## Requirements 
 
 ### 1. Navbar
 
@@ -84,17 +84,5 @@
 
 - HTML & CSS only
 - You can't use any other technology / Framework.
-
----
-
-# Design for Large Device
-
-<img src="https://i.ibb.co.com/jzJXbtw/Desktop.png"/>
-
----
-
-# Design for Small Device
-
- <img src="https://i.ibb.co.com/XpfS2bb/i-Phone-13-14-1.png"/>
 
 ---
