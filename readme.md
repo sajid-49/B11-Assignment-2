@@ -87,13 +87,6 @@
 
 ---
 
-# What to Submit
-
-- Your Github Repository . ex.("https://github.com/Repo-name")
-- Your Live Link. ex.(https://user.github.io/Repo-name/)
-
----
-
 # Design for Large Device
 
 <img src="https://i.ibb.co.com/jzJXbtw/Desktop.png"/>
